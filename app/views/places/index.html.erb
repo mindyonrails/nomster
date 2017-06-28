@@ -5,4 +5,12 @@
     <p><%= place.description %></p><br />
   </div>
 
+
 <% end %>
+
+<br />
+<div class="center">
+  <div class="pagination">
+  <%= will_paginate @posts %>
+</div>
+</div>
