@@ -88,15 +88,21 @@ body {
 
 blockquote {
   background: #f9f9f9;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin: 0.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C";
+
 }
 
 blockquote:before {
   color: #ccc;
-  content: open-quote;
+  content: "\201C";
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
@@ -107,3 +113,6 @@ blockquote p {
   display: inline;
 }
 
+small {
+  color: #ccc;
+}
