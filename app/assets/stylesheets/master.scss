@@ -18,6 +18,10 @@
   }
 }
 
+i {
+  color: #198063;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
@@ -101,7 +105,7 @@ blockquote {
 }
 
 blockquote:before {
-  color: #ccc;
+  color: #198063;
   content: "\201C";
   font-size: 4em;
   line-height: 0.1em;
@@ -114,5 +118,24 @@ blockquote p {
 }
 
 small {
-  color: #ccc;
+  color: #198063;
+}
+
+.btn-primary {
+  background-color: #198063;
+  border: none;
+}
+
+.btn-primary:hover {
+background-color: #126950;
+}
+
+.btn-danger {
+  background-color: #000000;
+  border: none;
+
+}
+
+.btn-danger:hover {
+background-color: #8C0A0A;
 }
