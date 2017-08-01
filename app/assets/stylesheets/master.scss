@@ -17,21 +17,25 @@
     max-width: 100%;
   }
 
-  a:link {
-    color: #000000;
-  }
+  .list-title {
+    a {
+      color: #000000;
+    }
 
-  a:hover {
-    color: #198063;
-  }
+    a:hover {
+      color: #198063;
+    }
 
-  a:visited {
-    color: #000000;
-  }
+    a:visited {
+      color: #000000;
+    }
 
-  a:active {
-    color: #000000;
+    a:active {
+      color: #000000;
+    }
+
   }
+  
 }
 
 i {
