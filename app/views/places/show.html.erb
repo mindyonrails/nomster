@@ -129,16 +129,11 @@
     </div>
   </div>
  
-
-
-  <h1 class="float-left">Photos</h1>
-
-
   
   <br />
   <% @place.photos.each do |photo| %>
     <%= image_tag photo.picture, class: "photo" %>
-    <%= photo.caption %>
+    <div class="caption"><%= photo.caption %></div>
   <% end %>
 
 </div>
