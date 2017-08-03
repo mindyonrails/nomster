@@ -4,7 +4,8 @@
     <br />
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
-   
+    
+
     <% if place.photos.present? %>
       <%= image_tag place.photos.first.picture, class: "index-photo" %>
       <%= image_tag place.photos.last.picture, class: "index-photo" %>

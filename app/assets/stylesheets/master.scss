@@ -13,13 +13,14 @@
   padding: 20px;
 
   .index-photo {
+    display: flex;
     width: 50%;
     padding: 0 6px;
     float: left;
     margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 8px;
+    max-height: 300px;
+    min-height: 300px;
+    border-radius: 25px;
   }
 
   .photo {
